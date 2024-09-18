@@ -1,0 +1,19 @@
+var tl = gsap.timeline()
+tl.from("#nav",{
+    y:-20,
+    opacity:0,
+    duration:0.6,
+    delay:0.5,
+})
+tl.from("h2",{
+    y:-20,
+    opacity:0,
+    duration:0.6,
+    stagger:0.3,
+})
+tl.from("h1",{
+    y:20,
+    opacity:0,
+    duration:0.6,
+    scale:0.2
+})
